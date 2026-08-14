@@ -5,7 +5,7 @@ export default function Home(){
   //What is JSX?(jsXML = help to write html inside javascript)
   return(
     <main>
-      <h1>Hello World</h1>
+      <h1>Hello World!</h1>
     </main>
   )
 }
