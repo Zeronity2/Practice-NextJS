@@ -11,6 +11,6 @@ export default async function Dynamic({params}){
    //}
 
    return(
-    <h1>You have typed the url as localhost:3000/about/device/{slug}</h1>
+    <h1 className="text-green-500" >You have typed the url as localhost:3000/about/device/{slug}</h1>
    );
 }
