@@ -1,5 +1,5 @@
 //localhost:3000/about/device/...(param)
-
+//[...slug] = to catch all url 
 
 export default async function Dynamic({params}){
 
