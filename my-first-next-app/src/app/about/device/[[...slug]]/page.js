@@ -1,8 +1,12 @@
 //localhost:3000/about/device/...(param)
 //[...slug] = to catch all url 
+//[[...slug]] = optional catch all
 
 export default async function Dynamic({params}){
 
+   await new Promise((resolve)=>{
+    setTimeout(resolve,3000);
+   })
    const {slug} = await params;
    console.log(slug);
 
