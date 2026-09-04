@@ -20,8 +20,7 @@ export default function Home() {
       <button onClick={()=>router.back("/about")}>Back</button><br />
 
       <p>You are on this path {pathname}</p>
-
-
+      
      </main>
   );
 }
